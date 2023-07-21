@@ -1,0 +1,52 @@
+
+.controller{
+    width: 33%;
+    height: 25%;
+    background-color: rgb(191, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round_button{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.menu_button{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    font-weight: 680;
+}
+
+.left_button{
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.right_button{
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+
+.bottem_button{
+    position: absolute;
+    height: 1.6rem;
+    width: 1.6rem;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+}
